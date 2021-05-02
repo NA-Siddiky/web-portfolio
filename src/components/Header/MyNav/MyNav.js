@@ -8,26 +8,26 @@ const MyNav = () => {
         <header className='sticky-top headerStyle'>
             <Navbar bg="" variant="light" className='styleOfNav'>
                 <ul>
-                    <Link className="nav-link mr-4 text-Blue" to="/">
+                    <Link className="nav-link mr-4 text-Blue" href="#home">
                         <img src={logo} className='logoImg' alt="" />
                     </Link>
                 </ul>
                 <Nav className="ml-auto">
 
                     <li className="nav-item active">
-                        <Link className="nav-link mr-4 text-Blue" to="/">Home</Link>
+                        <a className="nav-link mr-4 text-Blue" href="#home">Home</a>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link  text-Blue" to="/">Projects</Link>
+                        <a className="nav-link  text-Blue" href="#projects">Projects</a>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link mr-4 text-Blue" to="/">Blog</Link>
+                        <a className="nav-link mr-4 text-Blue" href="#blog">Blog</a>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link mr-4 text-Blue" to="/">About</Link>
+                        <a className="nav-link mr-4 text-Blue" href="#about">About</a>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link mr-4 text-Blue" to="/">Contact</Link>
+                        <a className="nav-link mr-4 text-Blue" href="#contact">Contact</a>
                     </li>
                 </Nav>
             </Navbar>
