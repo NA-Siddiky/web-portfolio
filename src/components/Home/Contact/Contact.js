@@ -1,8 +1,19 @@
 import React from 'react';
 import './Contact.css'
 import qr from '../../../images/QR-PNG.png'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
     return (
         <div>
             <div className="contact">
@@ -22,15 +33,14 @@ const Contact = () => {
                             <img className="d-block w-50" src={qr} alt="" />
                         </div>
                     </div>
-                    <form className="from">
+                    <form className="from" onSubmit={sendEmail}>
                         <label> Name*</label>
-                        <input type="text" />
+                        <input type="text" name='name' />
                         <label> Email address*</label>
-                        <input type="text" />
-                        <label> Phone*</label>
-                        <input type="text" />
+                        <input type="text" name='email' />
+
                         <label> Message*</label>
-                        <textarea></textarea>
+                        <textarea name='message'></textarea>
                         <input type="submit" value="connect ME" />
                     </form>
                 </div>
