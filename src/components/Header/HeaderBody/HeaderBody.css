@@ -1,6 +1,10 @@
 .profileImage {
 	width: 400px;
 }
+.name-highlight{
+	font-size: 36px;
+	color: rgb(255, 123, 0);	
+}
 .styleOfHeader {
 	/* border: 1px solid black; */
 	padding: 25px 100px;

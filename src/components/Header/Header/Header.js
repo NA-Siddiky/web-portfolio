@@ -7,8 +7,7 @@ const Header = () => {
     return (
         <div>
             <div className='headerStyle'>
-                {/* <MyNav></MyNav> */}
-                {/* <Slider></Slider> */}
+
                 <HeaderBody></HeaderBody>
 
             </div>
