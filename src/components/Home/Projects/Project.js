@@ -4,7 +4,7 @@ import { Button, Card } from 'react-bootstrap'
 function Project({ pr }) {
   const { name, img, teach, link, github, desc } = pr;
   return (
-    <Card style={{ width: '500px' }} class='m-2 shadow rounded'>
+    <Card style={{ width: '500px', margin: '20px' }} class=' shadow rounded'>
       <Card.Img variant="top" height="200px" src={img} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>

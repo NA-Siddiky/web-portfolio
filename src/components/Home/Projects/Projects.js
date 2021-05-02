@@ -9,7 +9,7 @@ import Project from './Project';
 const Projects = () => {
     return (
         <div className="container">
-            <div className="text-align-center">
+            <div className="text-center my-4">
                 <h3>Projects</h3>
                 <h5>Lets have a look some of my Projects</h5>
             </div>

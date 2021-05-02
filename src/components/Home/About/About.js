@@ -17,14 +17,14 @@ const About = () => {
 
                 <div className="col-md-6 about-img">
                     <div>
-                        <img className="profileImage" src={profile} alt="" />
+                        <img className="profileImage border shadow rounded" src={profile} alt="" />
                     </div>
 
-                    <div>
-                        <a target="_blank" href={``}>
+                    <div className='ml-2'>
+                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={``}>
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
-                        <a target="_blank" href={``}> <FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a style={{ fontSize: '35px', margin: '5px' }} target="_blank" href={``}> <FontAwesomeIcon icon={faLinkedin} /></a>
                     </div>
 
                 </div>
