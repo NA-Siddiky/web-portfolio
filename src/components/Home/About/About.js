@@ -4,7 +4,7 @@ import profile from '../../../images/Photo 2.jpg'
 import './About.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
 const About = () => {
@@ -21,8 +21,10 @@ const About = () => {
                     </div>
 
                     <div>
-                        <a target="_blank" href={``}><faLinkedin></faLinkedin></a>
-                        <a target="_blank" href={``}><faGithub></faGithub></a>
+                        <a target="_blank" href={``}>
+                            <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                        <a target="_blank" href={``}> <FontAwesomeIcon icon={faLinkedin} /></a>
                     </div>
 
                 </div>
@@ -35,7 +37,7 @@ const About = () => {
 
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 export default About;
