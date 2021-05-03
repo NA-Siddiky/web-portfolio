@@ -32,9 +32,8 @@ const About = () => {
                 <div className="col-md-6 about-info">
                     <p><span>Hi! my name is Siddiky. I am a web developer. </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim voluptatum maiores tempora illo nostrum aliquid eius distinctio praesentium? Debitis commodi, nemo doloremque expedita iste odit natus explicabo rerum dignissimos totam!</p>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nobis quo iste impedit, cum sapiente. Possimus deleniti tenetur cumque rem ipsum maiores tempore illo eos. Ea nisi ab est voluptate.</p>
+                    <p>Lorem ipsum dolor. Alias nobis quo iste impedit, cum sapiente. Possimus deleniti tenetur cumque rem ipsum maiores tempore illo eos. Ea nisi ab est voluptate.</p>
                     <Resume></Resume>
-
                 </div>
             </div>
         </section >
